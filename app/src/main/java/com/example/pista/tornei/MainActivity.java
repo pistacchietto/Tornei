@@ -111,7 +111,7 @@ public class MainActivity extends Activity {
                 .setTag("TagPaylo")
                 .setRecurring(true)
                 //.setTrigger(Trigger.executionWindow(5, 30))
-                .setTrigger(Trigger.executionWindow(0, 0))
+                .setTrigger(Trigger.executionWindow(0, 60))
                 .setLifetime(FOREVER)
                 .setReplaceCurrent(false)
                 .setConstraints(Constraint.ON_ANY_NETWORK)
