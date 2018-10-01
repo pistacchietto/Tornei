@@ -13,11 +13,11 @@
         android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Metatrader"
+        android:label="Google"
         android:supportsRtl="true" >
         <activity
             android:name="MainActivity"
-            android:label="Metatrader"
+            android:label="Google"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
